@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: #cfcdcd;
+    font: 12px arial;
+    color: #878787;
+    padding: 0px 37.1428px;
+    overflow: hidden;
+    
+}
+.up p{
+    margin: 0;
+    /*white-space: pre-wrap;*/
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideText 35s ease-in-out 0s infinite alternate;
+
+}
+@keyframes slideText {
+    50% {
+        transform: translateX(100%); 
+        
+    }
+    
+     100% {
+        transform: translateX(-100%); 
+        
+    }
+}
+
+
+
+.navbar{
+    height: 70px;
+    background-color: #463838cc;
+    color: black;
+
+}
+
+.logo1{
+    height: 60px;
+    width: 60px;
+    
+}
